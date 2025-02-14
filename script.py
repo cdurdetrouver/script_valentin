@@ -82,7 +82,7 @@ if __name__ == "__main__":
 	for login in names:
 		loc = get_location(login, token)
 		if loc != None:
-			print(loc)
+			print(loc, login)
 		time.sleep(0.2)
 
 
